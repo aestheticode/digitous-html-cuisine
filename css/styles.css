@@ -1,0 +1,27 @@
+.row {
+    margin: 5px;
+    
+}
+
+
+.yellow {
+    background-color: yellow;
+    height: 40px;
+}
+.blue {
+    background-color: blue;
+    height: 40px;
+}
+.rouge {
+    background-color: red;
+    height: 40px;
+}
+.green {
+    background-color: green;
+    height: 40px;
+}
+.gray {
+    background-color: gray;
+    height: 40px;
+    
+}
