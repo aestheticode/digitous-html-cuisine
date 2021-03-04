@@ -1,21 +1,31 @@
 
 .background{
    
-    height: 800px;
+    height: 600px;
     width: 100%;
 
     background: url(../img/header.jpg) no-repeat;
     
     background-position: center;
+    background-size: cover;
 }
 
 
 nav {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid rgb(73 72 72 / 80%);
+    background-color: rgba(0, 0, 0, 80%);
+    
+}
+header {
+    background-color: rgba(0, 0, 0, 80%);
+    height: 500px;
+  
 }
 nav, header {
   font-family: Courgette, cursive;
   color: white;
+ 
+  
   
 }
 h1{
@@ -24,10 +34,13 @@ h1{
 .nav-link{
     font-family: 'Oswald', sans-serif;
 }
-
+.logotaille {
+    width: 100px;
+}
 .logo{
     padding-top: 120px;
-    padding-left: 120px;    
+    padding-left: 140px;  
+    width: 100px;  
 }
 
 .logo h1{

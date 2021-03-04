@@ -20,14 +20,14 @@
 
   <!-- As a heading -->
 
-  <div class="background container-fluid">
+  <div class="background img-fluid">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="text-light h1" href="#">Cui'zine</a>
-        <!--button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button-->
+        </button>
         
         <div class="p-4">
           <div class="navbar-nav">
@@ -40,17 +40,17 @@
       </div>
     </nav>
 
-    <header>
+    <header class="container-fluid">
 
-      <div class="row">
+      <div class="row header align-items-center">
         <div class="col-4">
         </div>
 
         <div class="col-4 logo">
           
-            <img class="my-4" src="img/logo_square_white.png">
-            <h1 class="mx-auto">Cui'zine</h1>
-            <h2 class="row justify-content-start text-nowrap">Le mag cuisine</h2>
+            <img class="my-4 logotaille" src="img/logo_square_white.png">
+            <h1 class="display-1">Cui'zine</h1>
+            <h2 class="display-5">Le mag cuisine</h2>
           </div>
         </div>
       </div>
@@ -59,14 +59,14 @@
     </header>
   </div>
   <main>
-    <div class="container">
+    <div class="container-lg my-5">
       <div class="row">
-        <div class="mx-auto oswaldl h2">Derniers articles</div>
+        <div class="mx-auto display-4 mb-5 oswald">Derniers articles</div>
         <div class="row-mb-4">
           <div class="col-12 col-lg-3">
           <img src="img/articles/suzette/suzette-small.jpg" alt="" class="img-fluid">
         </div>
-        <div class="col-12 col-lg-9">
+        <div class="col-12 col-md-8">
 
         <div>
         <h4 class="Courgette">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
@@ -75,11 +75,11 @@
       </div>
     </div>
 
-    <div class="row-mb-4">
+    <div class="row-mb-3">
       <div class="col-12 col-lg-3">
       <img src="img/articles/metro/metro-small.jpg" alt="" class="img-fluid">
     </div>
-    <div class="col-12 col-lg-9">
+    <div class="col-12 col-md-8">
 
     <div>
     <h4 class="Courgette">Le Métro dessert</h4>
@@ -91,13 +91,24 @@
       <div class="col-12 col-lg-3">
       <img src="img/articles/vitaly/vitaly-small.jpg" alt="" class="img-fluid">
     </div>
-    <div class="col-12 col-lg-9">
+    <div class="col-12 col-md-8">
 
     <div>
+   
     <h4 class="Courgette">Vitaly, le végan italien</h4>
     <p class="oswald">Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
     </div>
     </div>    
+    </div>
+    </div>
+    <aside class="col-lg-2 d-none d-lg-block">
+     <div class="research Courgette">
+       <label for="exampleInputEmail1" class="Courgette">Recherche</label>
+       <input type="email" class="form-control oswald" id="Recherche" aria-describedby="Recherche" placeholder="Recherche...">
+         <button type="submit" class="btn btn-dark oswald col-button">Ok</button>
+       
+     </div>
+    </aside>
 
     
   </main>
