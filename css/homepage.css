@@ -36,8 +36,9 @@ h1{
 }
 .logotaille {
     width: 100px;
+    padding-left: 140px;
 }
-.logo{
+/*.logo{
     padding-top: 120px;
     padding-left: 140px;  
     width: 100px;  
@@ -51,7 +52,7 @@ h1{
     color: white;
     padding-left: 0px;
     font-size: 40px;
-}
+}*/
 .section-articles a {
     color: #000;
     text-decoration: none;
