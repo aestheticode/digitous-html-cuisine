@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/homepage.css">
 
@@ -28,7 +29,7 @@
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="p-4">
           <div class="navbar-nav">
             <a class="text-light nav-link active" aria-current="page" href="#">Accueil</a>
@@ -47,80 +48,135 @@
         </div>
 
         <div class="col-4 logo">
-          
-            <img class="my-4 logotaille" src="img/logo_square_white.png">
-            <h1 class="display-1">Cui'zine</h1>
-            <h2 class="display-5">Le mag cuisine</h2>
-          </div>
+
+          <img class="my-4 logotaille" src="img/logo_square_white.png">
+          <h1 class="display-1">Cui'zine</h1>
+          <h2 class="display-5">Le mag cuisine</h2>
         </div>
       </div>
-      <div class="col-4">
-      </div>
-    </header>
   </div>
-  <main>
-    <div class="container-lg my-5">
-      <div class="row">
-        <div class="mx-auto display-4 mb-5 oswald">Derniers articles</div>
+  <div class="col-4">
+  </div>
+  </header>
+  
+  <main class="container-lg section-articles">
+    
+        <div class="text-center display-4 mb-5 oswald">Derniers articles</div>
         <div class="row-mb-4">
-          <div class="col-12 col-lg-3">
-          <img src="img/articles/suzette/suzette-small.jpg" alt="" class="img-fluid">
-        </div>
-        <div class="col-12 col-md-8">
 
-        <div>
-        <h4 class="Courgette">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
-        <p class="oswald">La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
-      
+          <div class="col-12 col-lg-10">
+            <article class="row mb-3">
+              <div class="col-12 col-md-4 mb-3">
+            <img src="img/articles/suzette/suzette-small.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-md-8">
+
+            <div>
+              <h4 class="Courgette">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
+              <p class="oswald">La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier
+                restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées,
+                salées au froment ou au sarrazin!</p>
+          </div>
+        </article>
+        <article class="row mb-3">
+          <div class="col-12 col-md-4 mb-3">
+        
+              <img src="img/articles/metro/metro-small.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-8">
+
+              <div>
+                <h4 class="Courgette">Le Métro dessert</h4>
+                <p class="oswald">Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont
+                  décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
+                  absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis
+                </p>
+              </div>
+            </article>
+
+            <article class="row mb-3">
+              <div class="col-12 col-md-4 mb-3">
+                <img src="img/articles/vitaly/vitaly-small.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-12 col-md-8">
+
+                <div>
+
+                  <h4 class="Courgette">Vitaly, le végan italien</h4>
+                  <p class="oswald">Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les
+                    saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour
+                    vous.</p>
+                </div>
+              </article>
+      <div class="row">
+        <div class="col-6">
+          <a href="#">« Voir les articles précédents</a>
+      </div>
+      </div>
+        </div>
+          <aside class="col-lg-2 d-none d-lg-block">
+            <div>
+            <div class="Courgette h6">Recherche</div>
+            <div class="mb-3">
+             
+              <input type="email" class="form-control oswald" id="exampleFormControlInput1"placeholder="Recherche...">
+              <button type="button" class="btn btn-outline-dark oswald">Ok</button>
+              </div>
+            </div>
+          <div>
+            <div class="Courgette h6">Newsletter</div>
+            <div class="mb-3">
+            <input type="email" class="form-control oswald" id="exampleFormControlInput1" placeholder="Recherche...">
+            <button type="button" class="btn btn-outline-dark oswald">S'inscrire</button>
+            </div>
+          </div>
+          <div class="Courgette h6">Partager</div>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+          </aside>
+        </div>
+  </main>
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="Courgette h3">Catégories</div>
+          <ul>
+            <li><a href="#">Revues</a></li>
+            <li><a href="#">Recettes</a></li>
+            <li><a href="#">Découvertes</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="Courgette h3">Archives</div>
+          <ul>
+            <li><a href="#">2019</a></li>
+            <li><a href="#">2018</a></li>
+            <li><a href="#">2017</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="Courgette h6">Newsletter</div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-light" type="button" id="button-addon2">S'inscrire</button>
+          </div>
+          <div class="Courgette h6">Partager</div>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
       </div>
     </div>
-
-    <div class="row-mb-3">
-      <div class="col-12 col-lg-3">
-      <img src="img/articles/metro/metro-small.jpg" alt="" class="img-fluid">
-    </div>
-    <div class="col-12 col-md-8">
-
-    <div>
-    <h4 class="Courgette">Le Métro dessert</h4>
-    <p class="oswald">Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
-    </div>
-    </div>    
-
-    <div class="row-mb-4">
-      <div class="col-12 col-lg-3">
-      <img src="img/articles/vitaly/vitaly-small.jpg" alt="" class="img-fluid">
-    </div>
-    <div class="col-12 col-md-8">
-
-    <div>
-   
-    <h4 class="Courgette">Vitaly, le végan italien</h4>
-    <p class="oswald">Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
-    </div>
-    </div>    
-    </div>
-    </div>
-    <aside class="col-lg-2 d-none d-lg-block">
-     <div class="research Courgette">
-       <label for="exampleInputEmail1" class="Courgette">Recherche</label>
-       <input type="email" class="form-control oswald" id="Recherche" aria-describedby="Recherche" placeholder="Recherche...">
-         <button type="submit" class="btn btn-dark oswald col-button">Ok</button>
-       
-     </div>
-    </aside>
-
-    
-  </main>
+  </footer>
 
 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"crossorigin="anonymous"></script>
   <script src="./js/bootstrap.min.js"></script>
 </body>
 
