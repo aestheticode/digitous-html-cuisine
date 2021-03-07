@@ -1,0 +1,29 @@
+.background{
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/team/team.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    border-bottom: 2px solid rgb(73 72 72 / 80%);
+    background-color: rgba(0, 0, 0, 80%);
+    
+}
+header {
+    background-color: rgba(0, 0, 0, 80%);
+    height: 500px;
+  
+}
+nav, header {
+  font-family: Courgette, cursive;
+  color: white;
+ 
+}
+h1{
+    font-size: 30px;
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+}
