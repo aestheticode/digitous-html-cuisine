@@ -1,0 +1,62 @@
+.background{
+   
+    height: 600px;
+    width: 100%;
+
+    background: url(../img/header.jpg) no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav {
+    border-bottom: 2px solid rgb(73 72 72 / 80%);
+    background-color: rgba(0, 0, 0, 80%);
+    
+}
+header {
+    background-color: rgba(0, 0, 0, 80%);
+    height: 500px;
+  
+}
+nav, header {
+  font-family: Courgette, cursive;
+  color: white;
+ 
+  
+  
+}
+h1{
+    font-size: 40px;
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+}
+.logotaille {
+    width: 100px;
+    
+}
+ul  {
+    list-style: none;
+    line-height: 2.5;
+}
+
+aside button {
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.5;
+    
+}
+
+aside i.bi, footer i.bi {
+    padding: 5px;
+}
